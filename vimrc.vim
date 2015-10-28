@@ -13,7 +13,7 @@ Plugin 'gmarik/Vundle.vim'
 " https://github.com/jez/vim-as-an-ide/commit/457f2e2
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'tomasr/molokai'
-Plugin 'bling/vim-airline' 
+Plugin 'bling/vim-airline'
 
 " --- NERDTree Settings ---
 " https://github.com/jez/vim-as-an-ide/commit/b7ff90c
@@ -71,6 +71,8 @@ Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'HTML-AutoCloseTag'
 Plugin 'cakebaker/scss-syntax.vim'
 
+Plugin 'vim-scripts/AutoComplPop'
+
 call vundle#end()
 
 filetype plugin indent on
@@ -84,6 +86,9 @@ set number
 set showcmd
 set incsearch
 set hlsearch
+set expandtab
+set shiftwidth=2
+set softtabstop=2
 
 syntax on
 
